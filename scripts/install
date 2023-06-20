@@ -10,9 +10,8 @@ source _common.sh
 source /usr/share/yunohost/helpers
 
 
-CMS_SECRETKEY=$(ynh_string_random --length=32)
-
-WEBSITE_SECRETKEY=$(ynh_string_random --length=16)
+cms_key=$(ynh_string_random --length=32)
+website_key=$(ynh_string_random --length=16)
 
 #=================================================
 # APP "BUILD" (DEPLOYING SOURCES, VENV, COMPILING ETC)
