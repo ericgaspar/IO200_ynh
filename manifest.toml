@@ -41,6 +41,8 @@ ram.runtime = "50M"
         [resources.sources.main]
         url = "https://www.service.io200.com/api/v1/download:distribution"
         sha256 = "64e58f9f705614304e70b76c8d4786b9d4d5eaa6722b5f518e4470ae69db3e0e"
+        extract = true
+        in_subdir = true
 
     [resources.system_user]
 
