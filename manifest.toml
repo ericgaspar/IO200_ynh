@@ -11,10 +11,9 @@ maintainers = ["johndoe"]
 
 [upstream]
 license = "free"
-website = "https://example.com"
+website = "https://www.io200.com/"
 demo = "https://demo.example.com"
-admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
+admindoc = "https://www.io200.com/documentation#installation"
 code = "https://some.forge.com/example/example"
 
 [integration]
@@ -51,7 +50,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "mariadb-server php8.2-mbstring, php8.2-pcre, php8.2-zip, php8.2-mysqli, php8.2-date, fileinfo, php8.2-hash, php8.2-gd, php8.2-imagick"
+    packages = "mariadb-server, php8.2-mbstring, php8.2-pcre, php8.2-zip, php8.2-mysqli, php8.2-date, fileinfo, php8.2-hash, php8.2-gd, php8.2-imagick"
 
     [resources.database]
     type = "mysql"
