@@ -25,7 +25,7 @@ ynh_setup_source --dest_dir="$install_dir"
 
 chown -R $app:www-data "$install_dir"
 
-ynh_mysql_execute_file_as_root --file=$install_dir/storage/temp/cms_db_schema.sql
+ynh_mysql_execute_file_as_root --database=$db_name --file=$install_dir/storage/temp/cms_db_schema.sql
 
 #=================================================
 # SYSTEM CONFIGURATION
